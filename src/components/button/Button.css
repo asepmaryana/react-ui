@@ -1,0 +1,22 @@
+/* src/components/Button/Button.css */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn.primary {
+    background-color: blue;
+  }
+  
+  .btn.secondary {
+    background-color: gray;
+  }
+  
+  .btn:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+  }
+  

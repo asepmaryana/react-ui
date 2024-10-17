@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es5", // or "es6", depending on your needs
+      "module": "commonjs",
+      "outDir": "./", // Output directory for compiled files
+      "rootDir": "./src", // Root directory of input files
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "jsx": "react",
+      "declaration": true
+    },
+    "include": ["src/**/*.ts","src/**/*.tsx"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+  }
+  
